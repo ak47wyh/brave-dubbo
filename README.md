@@ -1,7 +1,9 @@
 # dubbotrave
-给dubbo扩展filter的是以下注释
+给dubbo扩展filter方法
+1.注释
 @Activate(group = Constants.CONSUMER)
-
+并添加aop依赖
+2.在如下目录下添加对应filter的文本信息
 resources
  META-INF.dubbo
   com.alibaba.dubbo.rpc.Filter
